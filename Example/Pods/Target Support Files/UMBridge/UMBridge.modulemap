@@ -1,0 +1,6 @@
+framework module UMBridge {
+  umbrella header "UMBridge-umbrella.h"
+
+  export *
+  module * { export * }
+}

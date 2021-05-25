@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/SamsonCJ/UMBridge'
+  s.homepage         = 'https://github.com/SunChJ/UMBridge'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'SamsonCJ' => 'chaojie.sun@quvideo.com' }
-  s.source           = { :git => 'https://github.com/SamsonCJ/UMBridge.git', :tag => s.version.to_s }
+  s.author           = { 'SamsonCJ' => 'cs3507529000@gmail.com' }
+  s.source           = { :git => 'https://github.com/SunChJ/UMBridge.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -38,5 +38,13 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.static_framework = true
+   s.preserve_paths = ['UMBridge/Module/module.modulemap', 'UMBridge/Module/BridgeHeader.h']
+   s.pod_target_xcconfig = {
+     # 路径根据实际情况进行引用，必须保证路径是正确的
+     'SWIFT_INCLUDE_PATHS' => ['$(PODS_ROOT)/UMBridge/Module', '$(PODS_TARGET_SRCROOT)/UMBridge/Module']
+   }
+   s.dependency 'UMCommon'
+   s.dependency 'UMDevice'
+   s.dependency 'UMAPM'
 end

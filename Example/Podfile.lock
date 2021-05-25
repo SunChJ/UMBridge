@@ -1,0 +1,32 @@
+PODS:
+  - UMAPM (1.2.1)
+  - UMBridge (0.1.0):
+    - UMAPM
+    - UMCommon
+    - UMDevice
+  - UMCommon (7.2.9):
+    - UMDevice
+  - UMDevice (1.2.0)
+
+DEPENDENCIES:
+  - UMBridge (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - UMAPM
+    - UMCommon
+    - UMDevice
+
+EXTERNAL SOURCES:
+  UMBridge:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UMAPM: 58a98390bbb593b9d008f16a403ecd6c550229fd
+  UMBridge: 7eccd568d713d52761d4d32ac7be5285bd331ceb
+  UMCommon: 28a05184e0766ea2c015ce9c56963356a38f9b1b
+  UMDevice: da050ba77e5075b1ec08303065722d25f599e483
+
+PODFILE CHECKSUM: c5bac298b3c23c4d0fe5abef20f9b9fa094aa461
+
+COCOAPODS: 1.10.1

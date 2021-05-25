@@ -1,0 +1,12 @@
+//
+//  module.modulemap
+//  UMCommon_Tests
+//
+//  Created by SamsonCJ on 2021/5/25.
+//  Copyright © 2021 CocoaPods. All rights reserved.
+//
+
+module UMCommonBridge {
+    header "BridgeHeader.h"
+    export *
+}

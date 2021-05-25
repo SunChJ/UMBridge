@@ -1,0 +1,44 @@
+{
+  "name": "UMBridge",
+  "version": "0.1.0",
+  "summary": "A short description of UMBridge.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/SunChJ/UMBridge",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "SamsonCJ": "cs3507529000@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/SunChJ/UMBridge.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "UMBridge/Classes/**/*",
+  "static_framework": true,
+  "preserve_paths": [
+    "UMBridge/Module/module.modulemap",
+    "UMBridge/Module/BridgeHeader.h"
+  ],
+  "pod_target_xcconfig": {
+    "SWIFT_INCLUDE_PATHS": [
+      "$(PODS_ROOT)/UMBridge/Module",
+      "$(PODS_TARGET_SRCROOT)/UMBridge/Module"
+    ]
+  },
+  "dependencies": {
+    "UMCommon": [
+
+    ],
+    "UMDevice": [
+
+    ],
+    "UMAPM": [
+
+    ]
+  }
+}
