@@ -1,0 +1,6 @@
+use_frameworks!
+target 'UMBridge_Tests' do
+  pod 'UMBridge', :path => '../'
+  
+  
+end
