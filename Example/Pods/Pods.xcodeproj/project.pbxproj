@@ -16,6 +16,7 @@
 				B075F89B01452A94A78CD7D7BDF57162 /* PBXTargetDependency */,
 			);
 			name = UMCommon;
+			productName = UMCommon;
 		};
 		CEB9AD2C3CFC208BFBE1F22F5EC3E1FC /* UMDevice */ = {
 			isa = PBXAggregateTarget;
@@ -25,6 +26,7 @@
 			dependencies = (
 			);
 			name = UMDevice;
+			productName = UMDevice;
 		};
 		F1E09035B7675D89EC69B16728E2833E /* UMAPM */ = {
 			isa = PBXAggregateTarget;
@@ -34,6 +36,7 @@
 			dependencies = (
 			);
 			name = UMAPM;
+			productName = UMAPM;
 		};
 /* End PBXAggregateTarget section */
 
@@ -111,11 +114,11 @@
 		033E1AFF5B3F072D7EC6E0DF03CB4356 /* UMBridge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UMBridge.modulemap; sourceTree = "<group>"; };
 		13A49497C6CC0E69584B6B5CC6B6979F /* UMCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCommon.release.xcconfig; sourceTree = "<group>"; };
 		1B7142FC7FD4D2E6879904C2E120251F /* UMBridge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UMBridge-Info.plist"; sourceTree = "<group>"; };
-		248EF8AE7E9B3E750839F3ED34EA9E96 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		248EF8AE7E9B3E750839F3ED34EA9E96 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		255F23FDC7B733D40712DA425451A4B7 /* UMAPM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMAPM.debug.xcconfig; sourceTree = "<group>"; };
 		279C40B0169CDCF8509B3B24B205089A /* UMBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UMBridge-prefix.pch"; sourceTree = "<group>"; };
 		28FE045898B9443C18F35FF5108DAC22 /* UMBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UMBridge-dummy.m"; sourceTree = "<group>"; };
-		2E618CCA76579882B3D1595629300DAB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2E618CCA76579882B3D1595629300DAB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		40F31C2FE96E8C69D3401A1767E5E9E1 /* Pods-UMBridge_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UMBridge_Tests-umbrella.h"; sourceTree = "<group>"; };
 		47F7504D21643AC793C7E2D2E38788A0 /* Pods-UMBridge_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UMBridge_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		51C94D0FCADC4E77D93DE24042301F3C /* UMBridge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UMBridge-umbrella.h"; sourceTree = "<group>"; };
@@ -130,13 +133,13 @@
 		77A2250129AD449A19B86DDA3E10EBE9 /* UMDevice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMDevice.release.xcconfig; sourceTree = "<group>"; };
 		8C09631ECDCFF81DBCC72ECB895F2C42 /* Pods-UMBridge_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UMBridge_Tests-dummy.m"; sourceTree = "<group>"; };
 		90A8E23EBDB0ACC2530FA50DBE4F741F /* Pods-UMBridge_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UMBridge_Tests-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FB4391FC4D03824391AD74394C36545 /* Pods-UMBridge_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UMBridge_Tests.modulemap"; sourceTree = "<group>"; };
 		A9567C042CBDB4FCA60127E1429F0117 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = UMBridge/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		B7AE976E2642F7F7FA8FD67D498C3426 /* UMBridge.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UMBridge.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B92047C63646E0005BEE95ECD317B619 /* Pods_UMBridge_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UMBridge_Tests.framework; path = "Pods-UMBridge_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7AE976E2642F7F7FA8FD67D498C3426 /* UMBridge.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = UMBridge.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B92047C63646E0005BEE95ECD317B619 /* Pods_UMBridge_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UMBridge_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF32487C592A039DFCC16572854EBAEB /* UMBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMBridge.release.xcconfig; sourceTree = "<group>"; };
-		D47086CD180DE91B623093E39DF9B2B9 /* UMBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UMBridge.framework; path = UMBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D47086CD180DE91B623093E39DF9B2B9 /* UMBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UMBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F68B6720F49E9645BC2B2FC0BF627B /* UMAPM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMAPM.framework; path = UMAPM_1.2.1/UMAPM.framework; sourceTree = "<group>"; };
 		D868E700CDE39CE7E3DB5AE6D21C2E44 /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMCommon.framework; path = UMCommon_7.2.9/UMCommon.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -213,7 +216,6 @@
 				597D923548F7F8CC18E35512AF9C1299 /* Frameworks */,
 				B30B4689455AB1EB5BFF27D08A3AAA0E /* Support Files */,
 			);
-			name = UMAPM;
 			path = UMAPM;
 			sourceTree = "<group>";
 		};
@@ -256,7 +258,6 @@
 				0595DC78727AD866C3EF441F9F07B82A /* Frameworks */,
 				FCBE5C9A58EFEC572033C492139904D6 /* Support Files */,
 			);
-			name = UMDevice;
 			path = UMDevice;
 			sourceTree = "<group>";
 		};
@@ -356,7 +357,6 @@
 				F02405111FF5A6D4B2BBDBB55D1E8D16 /* Frameworks */,
 				40765943D07F3719B593296AC41EDAD2 /* Support Files */,
 			);
-			name = UMCommon;
 			path = UMCommon;
 			sourceTree = "<group>";
 		};
@@ -614,8 +614,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -738,7 +737,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -803,7 +802,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

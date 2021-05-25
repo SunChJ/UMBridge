@@ -1,6 +1,6 @@
 PODS:
   - UMAPM (1.2.1)
-  - UMBridge (0.1.0):
+  - UMBridge (0.2.0):
     - UMAPM
     - UMCommon
     - UMDevice
@@ -23,7 +23,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   UMAPM: 58a98390bbb593b9d008f16a403ecd6c550229fd
-  UMBridge: 7eccd568d713d52761d4d32ac7be5285bd331ceb
+  UMBridge: 38b5062cf4123778b9d80644f765fdea87e972e5
   UMCommon: 28a05184e0766ea2c015ce9c56963356a38f9b1b
   UMDevice: da050ba77e5075b1ec08303065722d25f599e483
 
